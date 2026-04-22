@@ -1,36 +1,17 @@
 {
   "name": "pi-extension-tui-safe-clear",
-  "version": "1.0.0",
-  "description": "Clears terminal scrollback on startup & /quit while preserving pi-cli TUI header, skills, extensions, and status bar.",
+  "version": "1.2.0",
+  "description": "Clears terminal on startup & /quit while preserving TUI header",
   "type": "module",
   "main": "./index.js",
-  "exports": {
-    ".": "./index.js"
-  },
-  "files": [
-    "index.js"
-  ],
-  "engines": {
-    "node": ">=20"
-  },
-  "pi": {
-    "extensions": [
-      "./index.js"
-    ]
-  },
-  "keywords": [
-    "pi",
-    "pi-cli",
-    "pi-extension",
-    "terminal",
-    "clear",
-    "tui",
-    "scrollback"
-  ],
+  "exports": { ".": "./index.js" },
+  "files": ["index.js"],
+  "engines": { "node": ">=20" },
+  "pi": { "extensions": ["./index.js"] },
+  "keywords": ["pi", "pi-cli", "extension", "clear", "tui", "ansi", "reload"],
   "license": "MIT",
-  "author": "Your Name <your@email.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pi-extension-tui-safe-clear.git"
+    "url": "https://github.com/Unpredictedboii/pi-tui-safe-clear.git"
   }
 }

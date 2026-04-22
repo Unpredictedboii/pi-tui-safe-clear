@@ -7,5 +7,3 @@ Clears terminal scrollback/history when `pi-cli` starts and on `/quit`, **while 
 ```bash
 npm install pi-extension-tui-safe-clear
 ```
-
-# pi-tui-safe-clear
